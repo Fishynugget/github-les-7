@@ -11,5 +11,13 @@
 }
 
 .b4 {
-    
+    background-color: rgb(117, 180, 236);
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
 }
