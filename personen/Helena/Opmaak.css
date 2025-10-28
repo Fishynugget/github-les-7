@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0); 
+    flex-basis: calc(50% - half width gap);
+    gap: 10px;
+    padding: 20px;
+    margin: auto;
+    max-width: 700px;
+}
+
+.flex-container section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    flex-basis: calc(50% - 5px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    line-height: 75px;
+    font-size: 20px;
+}
+
+.flex-container section:nth-child(1) {
+    background-color: black;
+    border-style:ridge;
+    border-color: lightblue;
+    color: lightblue;
+}
+
+.flex-container section:nth-child(2) {
+    background-color: rgb(0, 0, 0);
+    border-style:ridge;
+    border-color: lightblue;
+    color: lightblue;
+}
