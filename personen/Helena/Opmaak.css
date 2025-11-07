@@ -13,14 +13,15 @@ header {
     text-shadow: #c2c2c2;
     justify-content: center;
     align-items: center;
-    background-size: contain;
+    background-image: url("images/Wallpaper-Black-Mirror-Bandersnatch.webp");
+    background-size: 720px 340px;
     background-position-x: center;
     background-repeat: no-repeat;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     flex-wrap: wrap;
     background-color: rgb(0, 0, 0); 
     flex-basis: calc(50% - half width gap);
@@ -28,6 +29,7 @@ header {
     padding: 20px;
     margin: auto;
     max-width: 700px;
+    
 }
 
 .flex-container section {
@@ -41,6 +43,7 @@ header {
     justify-content:baseline;
     line-height: 75px;
     font-size: 20px;
+    height: fit-content;
 }
 
 .flex-container section:nth-child(1) {
@@ -62,6 +65,8 @@ header {
    border-style:ridge;
    border-color: lightblue;
    color: lightblue;
+   font-size: 15px;
+   text-align: center;
 }
 
 @media screen and (max-width: 600px) {
